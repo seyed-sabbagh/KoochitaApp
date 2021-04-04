@@ -180,10 +180,46 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingBottom="12dp">
+                android:layout_height="150dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="خالی"
+                    android:textColor="#BF0606"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/viesws"
+                    app:layout_constraintStart_toStartOf="@+id/viesws"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رزرو شده"
+                    android:textColor="#4DC7BC"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/viesw"
+                    app:layout_constraintStart_toStartOf="@+id/viesw"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:text="رزرو شده"
+                    android:textColor="#BF0606"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    tools:ignore="MissingConstraints" />
 
 
                 <androidx.cardview.widget.CardView
@@ -192,38 +228,45 @@
                     android:layout_height="50dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginBottom="25dp"
                     android:elevation="12dp"
                     app:cardCornerRadius="25dp"
-                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
                     tools:ignore="MissingConstraints">
+
 
                     <ImageView
                         android:id="@+id/circleImage"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:alpha="0.4"
+                        android:background="#FF0000"
                         android:scaleType="centerCrop"
                         android:src="@drawable/picture" />
 
-
-
                 </androidx.cardview.widget.CardView>
+
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/viesw"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="25dp"
                     android:elevation="12dp"
                     app:cardCornerRadius="25dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/view"
-                    android:layout_marginEnd="10dp"
                     tools:ignore="MissingConstraints">
+
 
                     <ImageView
                         android:id="@+id/circleImages"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:alpha="0.4"
+                        android:background="#4DC7BC"
                         android:scaleType="centerCrop"
                         android:src="@drawable/picture" />
 
@@ -234,40 +277,47 @@
                     android:id="@+id/viesws"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="25dp"
                     android:elevation="12dp"
                     app:cardCornerRadius="25dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/viesw"
-                    android:layout_marginEnd="10dp"
                     tools:ignore="MissingConstraints">
 
                     <ImageView
                         android:id="@+id/circleImagess"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
+                        android:alpha="0.4"
+                        android:background="#EFEFEF"
                         android:scaleType="centerCrop"
                         android:src="@drawable/picture" />
 
 
                 </androidx.cardview.widget.CardView>
+
                 <TextView
                     android:id="@+id/name"
+                    style="@style/TextAppearance.AppCompat.Title"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Victoria Smith"
-                    style="@style/TextAppearance.AppCompat.Title"
-                    android:layout_marginStart="12dp"
-                    app:layout_constraintBottom_toTopOf="@+id/desc"
+                    android:layout_margin="10dp"
+                    android:text="تعداد مسافر امروز: 20 نفر"
+                    app:layout_constraintEnd_toEndOf="parent"
                     tools:ignore="MissingConstraints" />
 
                 <TextView
                     android:id="@+id/desc"
+                    style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="Work"
-                    style="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#8A000000"
+                    android:layout_margin="10dp"
                     android:layout_marginStart="12dp"
+                    android:text="وضعیت امروز اتاق ها"
+                    android:textColor="#8A000000"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/name"
                     tools:ignore="MissingConstraints" />
 
