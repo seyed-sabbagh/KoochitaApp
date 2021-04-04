@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#445565"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_add" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:text="test for test" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#B4C0CC">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/picture" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="نام اتاق : نام اقامتگاه" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="تعداد : دو اتاق" />
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="3dp"
+                    android:backgroundTint="#F19090"
+                    android:text="حذف"
+                    android:textSize="15sp"
+                    app:icon="@drawable/ic_delete"
+                    tools:ignore="SmallSp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="35dp"
+                    android:text="ویرایش"
+                    android:textSize="12sp"
+                    app:icon="@drawable/ic_baseline_edit_24"
+                    tools:ignore="SmallSp" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="70dp"
+                    android:text="پیام"
+                    android:textSize="15sp"
+                    app:icon="@drawable/ic_message"
+                    tools:ignore="SmallSp" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/test" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="در حال برسی برای ارتباط"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="20dp"
+                android:text="وضعیت رزرو آنی"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                />
+
+            <com.nightonke.jellytogglebutton.JellyToggleButton
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:jtbLeftText="On"
+                app:jtbRightText="Off"
+                app:jtbLeftTextSize="14sp"
+                app:jtbRightTextSize="14sp"
+                app:jtbTextMarginLeft="10dp"
+                app:jtbTextMarginRight="10dp"
+                app:jtbTextMarginBottom="50dp"
+                app:jtbTextMarginTop="50dp"
+                app:jtbTextMarginCenter="10dp"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="در صورت روشن نمودن این امکان بدون پرسش از شما، میمانان می توانند اقدام به رزرو نمایند. توجه نمایید لازمه این امر استفاده از گزینه اعلام مسافر در هر زمانی است که مسافر جدیدی دارید. روشن نمودن امکان رزرو آنی امتیازات ویژه ای برای شما به ارمغان می آرود. بیشتر بدانید"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginTop="70dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
