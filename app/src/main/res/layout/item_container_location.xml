@@ -154,7 +154,7 @@
                 android:alpha="0.4"
                 android:background="#EFEFEF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/picture" />
+                android:src="@drawable/keshti_banner" />
 
 
         </androidx.cardview.widget.CardView>

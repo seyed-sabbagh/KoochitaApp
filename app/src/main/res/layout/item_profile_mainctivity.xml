@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:background="#445565">
@@ -26,17 +27,20 @@
             android:alpha="0.4"
             android:background="#EFEFEF"
             android:scaleType="centerCrop"
-            android:src="@drawable/picture" />
+            android:src="@drawable/keshti_banner"
+            />
 
 
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:fontFamily="@font/iransans"
+        android:textSize="12sp"
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="@string/test_for_test"
+        android:text="@string/safhe_man_dar_kkoochita"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/viesws2"
         app:layout_constraintEnd_toStartOf="@+id/viesws2"
@@ -44,23 +48,27 @@
 
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="seen"
+        android:text="@string/moshahede"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="امنیاز"
+        android:text="@string/emtiyaz"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,11 +77,13 @@
 
     <TextView
         android:id="@+id/textView7"
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="تعداد نقد"
+        android:text="@string/tedad_naghd"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView8"
         app:layout_constraintEnd_toStartOf="@+id/textView8"
@@ -82,11 +92,13 @@
 
     <TextView
         android:id="@+id/textView9"
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="تعداد سوال"
+        android:text="@string/tedad_soal"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
@@ -94,12 +106,14 @@
         app:layout_constraintTop_toTopOf="@+id/textView7" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="تعداد پیام"
+        android:text="@string/tedad_payam"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
         app:layout_constraintEnd_toStartOf="@+id/textView9"
@@ -108,11 +122,13 @@
 
     <TextView
         android:id="@+id/textView11"
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="تعداد بازدید"
+        android:text="@string/tedad_bazdid"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toStartOf="@+id/textView10"
@@ -121,6 +137,8 @@
 
     <TextView
         android:id="@+id/textView12"
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1203"
@@ -131,6 +149,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -142,6 +162,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -153,6 +175,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -164,6 +188,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
+        android:textSize="12sp"
+        android:fontFamily="@font/iransans"
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

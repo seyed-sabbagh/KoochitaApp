@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="#243443"
     tools:context=".MainActivity">
 
@@ -12,33 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <include layout="@layout/toolbar_mainactivity" />
+
+        <include layout="@layout/text_sort_mainactivity" />
+
+        <include layout="@layout/banner_mainactivity"
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
-            android:background="@color/white">
+            android:layout_height="270dp" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                android:src="@drawable/ic_add" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:padding="15dp"
-                android:text="test for test" />
-
-
-        </RelativeLayout>
-
-        <include layout="@layout/banner_mainactivity" />
 
         <include layout="@layout/rezerv_mainactivity" />
 
@@ -49,12 +31,10 @@
         <include layout="@layout/btn_mosafer_mainactivity" />
 
 
-
         <include layout="@layout/takhfif_mainactivity" />
 
 
         <include layout="@layout/btn_mainactivity" />
-
 
 
         <androidx.viewpager2.widget.ViewPager2
@@ -68,11 +48,7 @@
 
 
         <include
-            layout="@layout/item_profile_mainctivity"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="20dp" />
+            layout="@layout/item_profile_mainctivity" />
 
 
     </LinearLayout>

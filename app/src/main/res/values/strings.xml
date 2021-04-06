@@ -1,4 +1,36 @@
 <resources>
-    <string name="app_name">تست</string>
+    <string name="app_name">koochita</string>
     <string name="test_for_test">test for test</string>
+    <string name="kasb_O_Kar_Toolbar">کسب و کار من</string>
+    <string name="entekhab_sayer_kasbokar">انتخاب سایر کسب و کار ها</string>
+    <string name="name_eghamat_ghah">نام اقامتگاه</string>
+    <string name="hazf">خذف</string>
+    <string name="virayes">ویرایش</string>
+    <string name="payam">پیام</string>
+    <string name="name_otagh_banner">نام اتاق :</string>
+    <string name="name_eghamatghah_banner">نام اقامتگاه</string>
+    <string name="tedad_banner">تعداد:</string>
+    <string name="do_otagh_banner">دو اتاق</string>
+    <string name="vaziyat_rezerv_rezerv_mainactivity">وضعیت رزرو آنی</string>
+    <string name="text_rezerv_main">در صورت روشن نمودن این امکان بدون پرسش از شما، میمانان می توانند اقدام به رزرو نمایند. توجه نمایید لازمه این امر استفاده از گزینه اعلام مسافر در هر زمانی است که مسافر جدیدی دارید. روشن نمودن امکان رزرو آنی امتیازات ویژه ای برای شما به ارمغان می آرود. بیشتر بدانید</string>
+    <string name="tedad_mosafer_main">تعداد مسافر امروز: 20 نفر</string>
+    <string name="vaziyat_otagh_main">وضعیت امروز اتاق ها</string>
+    <string name="bishtar">بیشتر</string>
+    <string name="sabehe_pishnahad">سابقه پیشنهادها</string>
+    <string name="shekayat_az_mosafer">شکایت از مسافر</string>
+    <string name="elan_hozor_mosafer">اعلان حضور مسافر</string>
+    <string name="vaziyat_gheymat_va_takhfif">وضعیت تخفیف ها و قیمت ها</string>
+    <string name="gheymat_nafar_ezafe">قیمت نفر اضافه</string>
+    <string name="gheymat_paye">قیمت پایه</string>
+    <string name="elane_takhfif">اعلان تخفیف</string>
+    <string name="modiriyat_otagh">مدیریت اتاق ها</string>
+    <string name="hesabdari">حسابداری</string>
+    <string name="modiriyat">مدیریت</string>
+    <string name="safhe_man_dar_kkoochita">صفحه من در کوچیتا</string>
+    <string name="moshahede">مشاهده</string>
+    <string name="emtiyaz">امنیاز</string>
+    <string name="tedad_naghd">تعداد نقد</string>
+    <string name="tedad_soal">تعداد سوال</string>
+    <string name="tedad_payam">تعداد پیام</string>
+    <string name="tedad_bazdid">تعداد بازدید</string>
 </resources>
