@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         TravelLocation travelLocationMotionView = new TravelLocation();
         travelLocationMotionView.imageUrl = "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
         travelLocationMotionView.title = "testtest";
-        travelLocationMotionView.location = "iran \n test";
+        travelLocationMotionView.location = "iran \n Item_Profile_MainActivity";
         travelLocationMotionView.starRating = 4.5f;
         travelLocations.add(travelLocationMotionView);
 
