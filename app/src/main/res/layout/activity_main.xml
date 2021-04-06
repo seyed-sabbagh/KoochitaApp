@@ -1,57 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#243443"
     tools:context=".MainActivity">
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:orientation="vertical">
+        android:layout_marginBottom="100dp"
+        android:background="#243443">
 
-        <include layout="@layout/toolbar_mainactivity" />
-
-        <include layout="@layout/text_sort_mainactivity" />
-
-        <include layout="@layout/banner_mainactivity"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="270dp" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <include layout="@layout/toolbar_mainactivity" />
+
+            <include layout="@layout/text_sort_mainactivity" />
+
+            <include
+                layout="@layout/banner_mainactivity"
+                android:layout_width="match_parent"
+                android:layout_height="270dp" />
 
 
-        <include layout="@layout/rezerv_mainactivity" />
+            <include layout="@layout/rezerv_mainactivity" />
 
 
-        <include layout="@layout/tedad_mosafer_mainactivity" />
+            <include layout="@layout/tedad_mosafer_mainactivity" />
 
 
-        <include layout="@layout/btn_mosafer_mainactivity" />
+            <include layout="@layout/btn_mosafer_mainactivity" />
 
 
-        <include layout="@layout/takhfif_mainactivity" />
+            <include layout="@layout/takhfif_mainactivity" />
 
 
-        <include layout="@layout/btn_mainactivity" />
+            <include layout="@layout/btn_mainactivity" />
 
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/locationsviewPager"
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/locationsviewPager"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:paddingStart="60dp"
+                android:paddingEnd="60dp" />
+
+
+            <include layout="@layout/item_profile_mainctivity" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <!-- Note: A RecyclerView can also be used -->
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="40dp"
-            android:paddingStart="60dp"
-            android:paddingEnd="60dp" />
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="100dp">
 
+            <!-- Scrollable content -->
 
-        <include
-            layout="@layout/item_profile_mainctivity" />
+        </androidx.core.widget.NestedScrollView>
 
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_menu"
+            app:navigationIcon="@drawable/ic_delete" />
 
-    </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/bottomAppBar"
+            app:srcCompat="@drawable/ic_circle_down" />
 
-
-</ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
