@@ -33,4 +33,7 @@
     <string name="tedad_soal">تعداد سوال</string>
     <string name="tedad_payam">تعداد پیام</string>
     <string name="tedad_bazdid">تعداد بازدید</string>
+    <string name="shomare_yek">شماره یک</string>
+    <string name="vaziyat_panj_roze">وضعیت پنج روزه</string>
+    <string name="gheymat_emruz">قیمت امروز</string>
 </resources>
