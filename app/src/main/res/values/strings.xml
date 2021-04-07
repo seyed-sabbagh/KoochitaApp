@@ -36,4 +36,15 @@
     <string name="shomare_yek">شماره یک</string>
     <string name="vaziyat_panj_roze">وضعیت پنج روزه</string>
     <string name="gheymat_emruz">قیمت امروز</string>
+    <string name="emale_takhfif">شما در حال اعمال سریع تخفیف هستید</string>
+    <string name="darsad_takhfif">درصد تخفیف را وارد نمایید</string>
+    <string name="ya_darcad_takhfif">یا درصد تخفیف را وارد کنید</string>
+    <string name="geymate_paye_toman">قیمت پایه(تومان)</string>
+    <string name="baze_takhfif">بازه تخفیف</string>
+    <string name="az">از</string>
+    <string name="tarikh">تاریخ</string>
+    <string name="ta">تا</string>
+    <string name="tanzimat_Bishtar">تنظیمات بیشتر</string>
+    <string name="darKodam_otahHa_emal_shavad">در کدام اتاق ها اعمال شود؟</string>
+    <string name="hame">همه</string>
 </resources>
