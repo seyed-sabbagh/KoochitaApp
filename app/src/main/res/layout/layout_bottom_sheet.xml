@@ -52,7 +52,7 @@
         android:fontFamily="@font/iransans"
         android:text="درصد تخفیف"
         android:textColor="@color/red_XD"
-        android:textSize="15sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
@@ -128,8 +128,20 @@
         android:textColor="@color/red_XD"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="@+id/view9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+
+    <View
+
+        android:id="@+id/view9"
+        android:layout_width="150dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/red_XD"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        tools:layout_editor_absoluteX="38dp" />
 
     <TextView
         android:id="@+id/textView35"
@@ -155,7 +167,7 @@
         android:gravity="center"
         android:text="@string/az"
         android:textColor="#B4C0CC"
-        android:textSize="12sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
@@ -190,7 +202,7 @@
         android:gravity="center"
         android:text="@string/ta"
         android:textColor="#B4C0CC"
-        android:textSize="12sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/view6"
         app:layout_constraintEnd_toStartOf="@+id/view6"
         app:layout_constraintTop_toTopOf="@+id/view6" />
@@ -199,20 +211,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="15dp"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/tarikh"
         android:textColor="@color/red_XD"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/view7"
-        app:layout_constraintEnd_toStartOf="@+id/textView38" />
+        app:layout_constraintEnd_toEndOf="@+id/view7" />
 
     <View
         android:id="@+id/view7"
         android:layout_width="150dp"
         android:layout_height="2dp"
         android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
         android:background="@color/red_XD"
         app:layout_constraintBottom_toBottomOf="@+id/textView38"
         app:layout_constraintEnd_toStartOf="@+id/textView38"
@@ -298,6 +310,7 @@
         app:layout_constraintTop_toTopOf="@+id/checkBox" />
 
     <CheckBox
+        android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="50dp"
@@ -308,5 +321,36 @@
         app:layout_constraintBottom_toBottomOf="@+id/checkBox3"
         app:layout_constraintEnd_toStartOf="@+id/checkBox3"
         app:layout_constraintTop_toTopOf="@+id/checkBox3" />
+
+
+    <Button
+        android:id="@+id/btn_emal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/transparent_bg_bordered_button"
+        android:fontFamily="@font/iransans"
+        android:text="@string/emal"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <Button
+        android:id="@+id/btn_Badan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/transparent_bg_bordered_button"
+        android:fontFamily="@font/iransans"
+        android:text="@string/badan"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_emal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

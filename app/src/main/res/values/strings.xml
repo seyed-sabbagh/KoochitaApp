@@ -47,4 +47,6 @@
     <string name="tanzimat_Bishtar">تنظیمات بیشتر</string>
     <string name="darKodam_otahHa_emal_shavad">در کدام اتاق ها اعمال شود؟</string>
     <string name="hame">همه</string>
+    <string name="emal">اعمال</string>
+    <string name="badan">بعدا</string>
 </resources>

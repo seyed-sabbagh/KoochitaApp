@@ -13,7 +13,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 public class ModiriatOtaghActivity extends AppCompatActivity {
 
-    Button btnShow;
+    Button btnShow,btnEmal,btnBadan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class ModiriatOtaghActivity extends AppCompatActivity {
 
 
         btnShow = findViewById(R.id.button_elane_takhfif);
+        btnBadan = findViewById(R.id.btn_Badan);
+        btnEmal = findViewById(R.id.btn_emal);
 
         btnShow.setOnClickListener(new View.OnClickListener() {
             @Override
