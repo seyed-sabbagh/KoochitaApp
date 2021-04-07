@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottomSheetContainer"
     android:layout_width="match_parent"
-    android:layout_height="650dp"
+    android:layout_height="wrap_content"
     android:background="#445565"
     android:orientation="vertical">
 
@@ -308,11 +308,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/checkBox3"
         app:layout_constraintEnd_toStartOf="@+id/checkBox3"
         app:layout_constraintTop_toTopOf="@+id/checkBox3" />
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:outlineAmbientShadowColor="@color/white"
 
 </androidx.constraintlayout.widget.ConstraintLayout>
