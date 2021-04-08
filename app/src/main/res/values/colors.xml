@@ -12,4 +12,6 @@
     <color name="black">#000</color>
     <color name="red_XD">#F19090</color>
     <color name="yellow_XD">#FBC155</color>
+    <color name="color_XD_Dark">#273039</color>
+    <color name="color_XD_lite">#445565</color>
 </resources>

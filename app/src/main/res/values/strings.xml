@@ -49,4 +49,7 @@
     <string name="hame">همه</string>
     <string name="emal">اعمال</string>
     <string name="badan">بعدا</string>
+    <string name="jost_o_joye_otagh">جست و جوی اتاق</string>
+    <string name="name_otagh">نام اتاق</string>
+    <string name="elame_mosafer">اعلام مسافر</string>
 </resources>

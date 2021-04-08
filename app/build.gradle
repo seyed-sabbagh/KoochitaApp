@@ -56,6 +56,7 @@ dependencies {
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
 
 
+    implementation 'com.ptrstovka.calendarview2:calendarview2:2.0-alpha5'
 
 
 
