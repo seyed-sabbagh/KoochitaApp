@@ -35,7 +35,7 @@ public class ModiriatOtaghActivity extends AppCompatActivity {
                         ModiriatOtaghActivity.this, R.style.BottomSheetDialogTheme);
                 @SuppressLint("WrongViewCast") View bottomSheetView = LayoutInflater.from(getApplicationContext())
                         .inflate(
-                                R.layout.layout_bottom_sheet,
+                                R.layout.layout_bottom_sheet_takhfif,
                                 (ConstraintLayout)findViewById(R.id.bottomSheetContainer)
                         );
                 bottomSheetView.findViewById(R.id.bottomSheetContainer).setOnClickListener(new View.OnClickListener() {
