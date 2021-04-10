@@ -57,4 +57,8 @@
     <string name="last_name">نام خانوادگی</string>
     <string name="tarikh_vorood">تاریخ ورود</string>
     <string name="tarikh_khoroj">تاریخ خروج</string>
+    <string name="taghvim_kasbO_Kar">تقویم کسب و کار</string>
+    <string name="title_activity_taghvim__kasb_okar_">Taghvim_KasbOkar_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
