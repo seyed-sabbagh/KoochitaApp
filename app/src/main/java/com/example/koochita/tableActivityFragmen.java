@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.koochita.ui.main.SectionsPagerAdapter;
+import com.example.koochita.fragment_taghvim_kasb_o_kar.ui.main.SectionsPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class tableActivityFragmen extends AppCompatActivity {

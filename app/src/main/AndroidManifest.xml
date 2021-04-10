@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Koochita">
         <activity
+            android:name=".fragmentListKasOkar.MainFragment"
+            android:label="@string/title_activity_main_fragment"
+            android:theme="@style/Theme.Koochita.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".tableActivityFragmen"
             android:label="@string/title_activity_table_fragmen"
             android:theme="@style/Theme.Koochita.NoActionBar">

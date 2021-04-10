@@ -1,4 +1,4 @@
-package com.example.koochita.ui.main;
+package com.example.koochita.fragment_taghvim_kasb_o_kar.ui.main;
 
 import android.content.Context;
 
@@ -9,8 +9,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.koochita.R;
-import com.example.koochita.fragment1;
-import com.example.koochita.fragment2;
+import com.example.koochita.fragment_taghvim_kasb_o_kar.fragment1_taghvimKasOkar;
+import com.example.koochita.fragment_taghvim_kasb_o_kar.fragment2_TaghvimKasbOkar;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -32,10 +32,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new fragment1();
+                fragment = new fragment1_taghvimKasOkar();
                 break;
             case 1:
-                fragment = new fragment2();
+                fragment = new fragment2_TaghvimKasbOkar();
                 break;
         }
         return fragment;
