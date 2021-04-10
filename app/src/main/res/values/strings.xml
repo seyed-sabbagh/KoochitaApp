@@ -52,4 +52,9 @@
     <string name="jost_o_joye_otagh">جست و جوی اتاق</string>
     <string name="name_otagh">نام اتاق</string>
     <string name="elame_mosafer">اعلام مسافر</string>
+    <string name="joziyat_mosafer_vared_konid">جزیٔیات مسافر را وارد کنید</string>
+    <string name="name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="tarikh_vorood">تاریخ ورود</string>
+    <string name="tarikh_khoroj">تاریخ خروج</string>
 </resources>
