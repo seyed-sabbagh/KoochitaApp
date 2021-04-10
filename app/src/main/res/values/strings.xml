@@ -61,4 +61,15 @@
     <string name="title_activity_taghvim__kasb_okar_">Taghvim_KasbOkar_Activity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_table_fragmen">tableActivityFragmen</string>
+    <string name="shanbe">شنبه</string>
+    <string name="tedad_mosaferan">تعداد مسافران امروز</string>
+    <string name="_16">16 نفر</string>
+    <string name="zarfiyat_khali">ظرفیت خالی</string>
+    <string name="_25">25 نفر</string>
+    <string name="darAmad">درآمد</string>
+    <string name="otagh_por">اتاق های پر</string>
+    <string name="otagh_khali">نام اتاق های خالی</string>
+    <string name="moshahede_hame">مشاهده همه</string>
 </resources>
