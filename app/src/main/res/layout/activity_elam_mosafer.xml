@@ -20,8 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:fontFamily="@font/iransans"
-            android:text="@string/kasb_O_Kar_Toolbar"
-            android:textColor="@color/white"
+            android:text="@string/elame_mosafer"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
     </RelativeLayout>
@@ -35,8 +35,8 @@
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/iransans"
         android:text="@string/jost_o_joye_otagh"
-        android:textColor="@color/red_XD"
-        android:textSize="20sp"
+        android:textColor="#B4C0CC"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
 
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginTop="10dp"
-        android:background="@color/red_XD"
+        android:background="#B4C0CC"
         app:layout_constraintTop_toBottomOf="@+id/txt1" />
     <!--
         <LinearLayout
@@ -60,7 +60,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="15dp"
-                android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTint="@android:color/blacker_gray"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view4"
@@ -95,7 +95,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/name_otagh"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
                 <TextView
@@ -107,7 +107,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/shomare_yek"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
 
@@ -121,7 +121,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/vaziyat_panj_roze"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="12sp" />
 
 
@@ -142,7 +142,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="15dp"
-                android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTint="@android:color/blacker_gray"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view4"
@@ -176,7 +176,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/name_otagh"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
                 <TextView
@@ -188,7 +188,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/shomare_yek"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
 
@@ -202,7 +202,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/vaziyat_panj_roze"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="12sp" />
 
 
@@ -222,7 +222,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="15dp"
-                android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTint="@android:color/blacker_gray"
                 app:cardCornerRadius="15dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view4"
@@ -257,7 +257,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/name_otagh"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
                 <TextView
@@ -269,7 +269,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/shomare_yek"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
 
 
@@ -283,7 +283,7 @@
                     android:fontFamily="@font/iransans"
                     android:padding="5dp"
                     android:text="@string/vaziyat_panj_roze"
-                    android:textColor="@color/lightWhite"
+                    android:textColor="@color/black"
                     android:textSize="12sp" />
 
 
@@ -312,6 +312,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/bacgraund_cardview"
+        android:backgroundTint="#B4C0CC"
         app:layout_constraintEnd_toStartOf="@+id/relativeLayout6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view4" />
@@ -348,7 +349,7 @@
         android:layout_marginEnd="10dp"
         android:fontFamily="@font/iransans"
         android:text="@string/name_otagh"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout4"
         app:layout_constraintTop_toBottomOf="@+id/cardView5" />
@@ -362,7 +363,7 @@
         android:layout_marginStart="10dp"
         android:fontFamily="@font/iransans"
         android:text="@string/shomare_yek"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView37"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout4"
@@ -377,7 +378,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/vaziyat_panj_roze"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/textView37"
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
@@ -387,6 +388,7 @@
         android:id="@+id/btn_elame_mosafer"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
+        android:backgroundTint="@color/black"
         android:fontFamily="@font/iransans"
         android:text="@string/elame_mosafer"
         android:textSize="9sp"
@@ -402,7 +404,8 @@
         android:layout_height="150dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/bacgraund_cardview"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="#B4C0CC"
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout4"
         app:layout_constraintEnd_toStartOf="@+id/relativeLayout7"
         app:layout_constraintStart_toEndOf="@+id/relativeLayout4"
@@ -442,7 +445,7 @@
         android:layout_marginEnd="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/name_otagh"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout6"
         app:layout_constraintTop_toBottomOf="@+id/cardView6" />
@@ -455,7 +458,7 @@
         android:layout_marginStart="8dp"
         android:fontFamily="@font/iransans"
         android:text="@string/shomare_yek"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView43"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout6"
@@ -471,7 +474,7 @@
         android:layout_marginEnd="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/vaziyat_panj_roze"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout6"
         app:layout_constraintTop_toBottomOf="@+id/textView43" />
@@ -484,6 +487,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/black"
         android:fontFamily="@font/iransans"
         android:text="@string/elame_mosafer"
         android:textSize="9sp"
@@ -499,11 +503,12 @@
         android:layout_height="150dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/bacgraund_cardview"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="#B4C0CC"
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/relativeLayout6"
-        app:layout_constraintTop_toTopOf="@+id/relativeLayout6" >
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout6">
 
 
     </RelativeLayout>
@@ -517,7 +522,7 @@
         android:layout_marginEnd="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/name_otagh"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout7"
         app:layout_constraintTop_toBottomOf="@+id/cardView7" />
@@ -554,7 +559,7 @@
         android:layout_marginStart="8dp"
         android:fontFamily="@font/iransans"
         android:text="@string/shomare_yek"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView45"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout7"
@@ -571,7 +576,7 @@
         android:layout_marginEnd="5dp"
         android:fontFamily="@font/iransans"
         android:text="@string/vaziyat_panj_roze"
-        android:textColor="@color/lightWhite"
+        android:textColor="@color/black"
         android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout7"
         app:layout_constraintTop_toBottomOf="@+id/textView45" />
@@ -581,15 +586,13 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/black"
         android:fontFamily="@font/iransans"
         android:text="@string/elame_mosafer"
         android:textSize="9sp"
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout7"
         app:layout_constraintEnd_toEndOf="@+id/relativeLayout7"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout7" />
-
-
-
 
 
     <RelativeLayout
