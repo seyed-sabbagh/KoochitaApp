@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="10dp"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="10dp">
 
 
     <TextView
@@ -28,6 +28,8 @@
         android:layout_marginStart="10dp"
         app:jtbLeftText="On"
         app:jtbLeftTextSize="14sp"
+       app:jtbRightThumbColor="@color/yellow_XD"
+        app:jtbLeftThumbColor="@color/color_XD_Dark"
         app:jtbRightText="Off"
         app:jtbRightTextSize="14sp"
         app:jtbTextMarginBottom="50dp"
@@ -40,14 +42,14 @@
         tools:ignore="RelativeOverlap" />
 
     <TextView
-        android:fontFamily="@font/iransans"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/iransans"
         android:gravity="center_vertical"
         android:text="@string/text_rezerv_main"
         android:textColor="#F19090"
+        android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
 

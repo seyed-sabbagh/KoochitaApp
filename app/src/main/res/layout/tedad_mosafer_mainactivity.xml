@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_margin="10dp"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     android:background="#445565">
 
 
@@ -67,10 +67,15 @@
             android:id="@+id/circleImage"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:alpha="0.4"
             android:background="#FF0000"
             android:scaleType="centerCrop"
             android:src="@drawable/keshti_banner" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:src="@color/red_XD" />
 
     </androidx.cardview.widget.CardView>
 
@@ -91,11 +96,14 @@
             android:id="@+id/circleImages"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:alpha="0.4"
-            android:background="#4DC7BC"
             android:scaleType="centerCrop"
             android:src="@drawable/keshti_banner" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:src="#4DC7BC" />
 
     </androidx.cardview.widget.CardView>
 
@@ -115,25 +123,29 @@
             android:id="@+id/circleImagess"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:alpha="0.4"
-            android:background="#EFEFEF"
+
             android:scaleType="centerCrop"
             android:src="@drawable/keshti_banner" />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:src="#EFEFEF" />
 
     </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/name"
         style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:fontFamily="@font/iransans"
         android:text="@string/tedad_mosafer_main"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="wrap_content" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/desc"
@@ -153,15 +165,17 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="@font/iransans"
         android:text="@string/bishtar"
         android:textColor="#FBC155"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="65dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageView4" />
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -190,10 +204,10 @@
             android:layout_height="30dp"
             android:layout_marginStart="12dp"
             android:layout_marginTop="22dp"
+            android:contentDescription="TODO"
             android:src="@drawable/ic_circle_down"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="TODO" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/phoneNumber"

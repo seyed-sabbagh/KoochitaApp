@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="10dp"
-    android:background="#445565"
-    android:layout_height="260dp">
+    android:layout_height="260dp"
+    android:layout_margin="10dp"
+    android:background="#445565">
 
     <ImageView
         android:id="@+id/imageView"
@@ -19,7 +19,8 @@
         tools:ignore="MissingConstraints" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
         android:id="@+id/button5"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
@@ -34,7 +35,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
         android:id="@+id/button6"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
@@ -48,7 +50,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"

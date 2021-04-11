@@ -1,7 +1,6 @@
-package com.example.koochita.fragmentListKasOkar.ui.main;
+package com.example.koochita.taghvim_kasbOkar2.ui.main;
 
 import android.content.Context;
-import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -10,10 +9,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.koochita.R;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment1_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment2_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment3_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment4_ListKasbOkar;
+import com.example.koochita.fragment_taghvim_kasb_o_kar.fragment1_taghvimKasOkar;
+import com.example.koochita.fragment_taghvim_kasb_o_kar.fragment2_TaghvimKasbOkar;
+import com.example.koochita.taghvim_kasbOkar2.fragment1_taghvimKasOkar2;
+import com.example.koochita.taghvim_kasbOkar2.fragment2_taghvimKasOkar2;
+
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -21,10 +21,8 @@ import com.example.koochita.fragmentListKasOkar.Fragment.fragment4_ListKasbOkar;
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-
-
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3, R.string.tab_text_4};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -35,23 +33,16 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         Fragment fragment = null;
-        switch (position) {
+        switch (position){
             case 0:
-                fragment = new fragment1_ListKasbOkar();
+                fragment = new fragment1_taghvimKasOkar2();
                 break;
             case 1:
-                fragment = new fragment2_ListKasbOkar();
-                break;
-            case 2:
-                fragment = new fragment3_ListKasbOkar();
-                break;
-            case 3:
-                fragment = new fragment4_ListKasbOkar();
+                fragment = new fragment2_taghvimKasOkar2();
                 break;
         }
         return fragment;
     }
-
 
     @Nullable
     @Override
@@ -62,7 +53,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 4;
+        return 2;
     }
-
 }
