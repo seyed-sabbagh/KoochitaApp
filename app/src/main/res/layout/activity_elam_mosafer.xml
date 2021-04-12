@@ -7,13 +7,20 @@
     android:background="@color/color_XD_Dark"
     tools:context=".ElamMosaferActivity">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/relativeLayout3"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="@color/color_XD_lite"
-        android:gravity="end|center"
         tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_toolbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,9 +29,12 @@
             android:fontFamily="@font/iransans"
             android:text="@string/elame_mosafer"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <TextView
