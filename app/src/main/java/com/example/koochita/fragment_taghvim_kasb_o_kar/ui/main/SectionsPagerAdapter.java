@@ -19,7 +19,7 @@ import com.example.koochita.fragment_taghvim_kasb_o_kar.fragment2_TaghvimKasbOka
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_joziyat, R.string.tab_mahiyane};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {

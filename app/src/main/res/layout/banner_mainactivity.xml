@@ -86,7 +86,7 @@
         android:fontFamily="@font/iransans"
         android:text="@string/name_eghamatghah_banner"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView19"
         app:layout_constraintEnd_toStartOf="@+id/textView19"
         app:layout_constraintTop_toTopOf="@+id/textView19" />
@@ -111,7 +111,8 @@
         android:fontFamily="@font/iransans"
         android:text="@string/do_otagh_banner"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView20"
         app:layout_constraintEnd_toStartOf="@+id/textView20"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 

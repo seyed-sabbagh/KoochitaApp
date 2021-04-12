@@ -60,6 +60,12 @@
     <string name="taghvim_kasbO_Kar">تقویم کسب و کار</string>
     <string name="title_activity_taghvim__kasb_okar_">Taghvim_KasbOkar_Activity</string>
     <string name="tab_text_1">Tab 1</string>
+    <string name="tab_emroz">امروز</string>
+    <string name="tab_farda">فردا</string>
+    <string name="tab_joziyat">جزییات</string>
+    <string name="tab_mahiyane">ماهیانه</string>
+    <string name="tab_pas_farda">پس فردا</string>
+    <string name="tab_tarikh_bar_asas_taghvim">تاریخ بر اساس تقویم</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="tab_text_4">Tab 4</string>

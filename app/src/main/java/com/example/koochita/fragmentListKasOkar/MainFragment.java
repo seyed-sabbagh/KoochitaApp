@@ -26,13 +26,7 @@ public class MainFragment extends AppCompatActivity {
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
 
-        FloatingActionButton floatingActionButton = findViewById(R.id.test);
-        floatingActionButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MainFragment.this, "asd", Toast.LENGTH_SHORT).show();
-            }
-        });
+
 
     }
 }

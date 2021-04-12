@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:layout_margin="10dp"
-        android:background="@color/color_XD_lite"
+        android:background="@drawable/my_custom_background"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
 

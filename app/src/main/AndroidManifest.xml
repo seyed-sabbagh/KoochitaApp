@@ -11,32 +11,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Koochita">
+        <activity android:name=".MenuForActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".taghvim_kasbOkar2.MainActivityFragmentTaghvimKasbOkar2"
             android:label="@string/title_activity_main_fragment_taghvim_kasb_okar2"
-            android:theme="@style/Theme.Koochita.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.Koochita.NoActionBar"></activity>
         <activity
             android:name=".fragmentListKasOkar.MainFragment"
             android:label="@string/title_activity_main_fragment"
-            android:theme="@style/Theme.Koochita.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.Koochita.NoActionBar"></activity>
         <activity
             android:name=".tableActivityFragmen"
             android:label="@string/title_activity_table_fragmen"
-            android:theme="@style/Theme.Koochita.NoActionBar">
-
-        </activity>
-        <activity android:name=".ElamMosaferActivity">
-
-        </activity>
+            android:theme="@style/Theme.Koochita.NoActionBar"></activity>
+        <activity android:name=".ElamMosaferActivity"></activity>
         <activity android:name=".Calender" />
-        <activity android:name=".ModiriatOtaghActivity">
-
-        </activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name=".ModiriatOtaghActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
