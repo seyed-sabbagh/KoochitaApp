@@ -144,6 +144,7 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView66"
         app:layout_constraintEnd_toStartOf="@+id/textView66"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout5"
         app:layout_constraintTop_toTopOf="@+id/textView66" />
 
     <TextView

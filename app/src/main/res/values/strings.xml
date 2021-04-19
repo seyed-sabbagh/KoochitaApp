@@ -102,4 +102,5 @@
     <string name="title_activity_fragment__list__mosaferan">Fragment_List_Mosaferan</string>
     <string name="dalil_aval">دلیل اول</string>
     <string name="tedad_sahab_eghamat">تعداد شب اقامت</string>
+    <string name="title_activity_fragment_calender">FragmentCalender</string>
 </resources>

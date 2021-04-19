@@ -11,7 +11,11 @@
         android:layoutDirection="ltr"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/Theme.Koochita">
-        <activity android:name=".ActivityFragment1_ListKasbOkar"></activity>
+        <activity
+            android:name=".Fragment_calender.FragmentCalender"
+            android:label="@string/title_activity_fragment_calender"
+            android:theme="@style/Theme.Koochita.NoActionBar"></activity>
+        <activity android:name=".ActivityFragment1_ListKasbOkar" />
         <activity
             android:name=".Fragment_List_Mosaferan.Fragment_List_Mosaferan"
             android:label="@string/title_activity_fragment__list__mosaferan"
@@ -32,7 +36,6 @@
             android:label="@string/title_activity_main_fragment"
             android:theme="@style/Theme.Koochita.NoActionBar" />
         <activity android:name=".ElamMosaferActivity" />
-        <activity android:name=".Calender" />
         <activity android:name=".ModiriatOtaghActivity" />
         <activity android:name=".mainMainActivity">
             <intent-filter>
