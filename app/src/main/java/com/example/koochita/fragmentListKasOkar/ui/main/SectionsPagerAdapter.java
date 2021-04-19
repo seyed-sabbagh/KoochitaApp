@@ -1,7 +1,6 @@
 package com.example.koochita.fragmentListKasOkar.ui.main;
 
 import android.content.Context;
-import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
@@ -11,9 +10,6 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.koochita.R;
 import com.example.koochita.fragmentListKasOkar.Fragment.fragment1_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment2_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment3_ListKasbOkar;
-import com.example.koochita.fragmentListKasOkar.Fragment.fragment4_ListKasbOkar;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -38,15 +34,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 fragment = new fragment1_ListKasbOkar();
-                break;
-            case 1:
-                fragment = new fragment2_ListKasbOkar();
-                break;
-            case 2:
-                fragment = new fragment3_ListKasbOkar();
-                break;
-            case 3:
-                fragment = new fragment4_ListKasbOkar();
                 break;
         }
         return fragment;

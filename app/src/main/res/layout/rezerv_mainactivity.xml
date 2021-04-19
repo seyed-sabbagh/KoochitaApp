@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layoutDirection="ltr"
     android:padding="10dp">
 
 
@@ -21,6 +22,43 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        app:toggle_selectableAmount="1"
+        app:toggle_horizontalSpacing="0dp"
+        android:id="@+id/jellyToggleButton"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"
+        app:justifyContent="flex_start"> <!-- this attribute is from the underlying FlexboxLayout -->
+
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            app:toggle_selectedBackgroundColor="@color/yellow_XD"
+            android:id="@+id/btn2"
+            app:toggle_textColor="@color/white"
+            app:toggle_backgroundColor="@color/color_XD_lite"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_btnCornerRadius="0dp"
+            app:toggle_text="روشن" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            app:toggle_btnCornerRadius="0dp"
+            app:toggle_circularCornerRadius="false"
+            app:toggle_selectedBackgroundColor="@color/yellow_XD"
+            app:toggle_textColor="@color/white"
+            app:toggle_backgroundColor="@color/color_XD_lite"
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:toggle_text="خاموش" />
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+<!--
+
     <com.nightonke.jellytogglebutton.JellyToggleButton
         android:id="@+id/jellyToggleButton"
         android:layout_width="wrap_content"
@@ -30,6 +68,8 @@
         app:jtbLeftTextSize="14sp"
        app:jtbRightThumbColor="@color/yellow_XD"
         app:jtbLeftThumbColor="@color/color_XD_Dark"
+        app:jtbRightBackgroundColor="@color/color_XD_lite"
+        app:jtbLeftBackgroundColor="@color/color_XD_lite"
         app:jtbRightText="Off"
         app:jtbRightTextSize="14sp"
         app:jtbTextMarginBottom="50dp"
@@ -38,8 +78,8 @@
         app:jtbTextMarginRight="10dp"
         app:jtbTextMarginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="RelativeOverlap" />
+        app:layout_constraintTop_toTopOf="parent" />
+-->
 
     <TextView
         android:layout_width="match_parent"

@@ -18,7 +18,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class mainMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,32 +38,32 @@ public class MainActivity extends AppCompatActivity {
 
         TravelLocation travelLocationMotionView = new TravelLocation();
         travelLocationMotionView.imageUrl = "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
-        travelLocationMotionView.title = "testtest";
-        travelLocationMotionView.location = "iran \n Item_Profile_MainActivity";
+        travelLocationMotionView.title = "آموزش واویشکا";
+        travelLocationMotionView.location = " ۱۴ روز پیش";
         travelLocationMotionView.starRating = 4.5f;
         travelLocations.add(travelLocationMotionView);
 
 
         TravelLocation travelLocationMotionView2 = new TravelLocation();
         travelLocationMotionView2.imageUrl = "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
-        travelLocationMotionView2.title = "testtest";
-        travelLocationMotionView2.location = "iran";
+        travelLocationMotionView2.title = "آموزش واویشکا";
+        travelLocationMotionView2.location = "۱۴ روز پیش";
         travelLocationMotionView2.starRating = 4.5f;
         travelLocations.add(travelLocationMotionView2);
 
 
         TravelLocation travelLocationMotionView3 = new TravelLocation();
         travelLocationMotionView3.imageUrl = "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
-        travelLocationMotionView3.title = "testtest";
-        travelLocationMotionView3.location = "iran";
+        travelLocationMotionView3.title = "آموزش واویشکا";
+        travelLocationMotionView3.location = "۱۴ روز پیش";
         travelLocationMotionView3.starRating = 4.5f;
         travelLocations.add(travelLocationMotionView3);
 
 
         TravelLocation travelLocationMotionView4 = new TravelLocation();
         travelLocationMotionView4.imageUrl = "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80";
-        travelLocationMotionView4.title = "testtest";
-        travelLocationMotionView4.location = "iran";
+        travelLocationMotionView4.title = "آموزش واویشکا";
+        travelLocationMotionView4.location = "۱۴ روز پیش";
         travelLocationMotionView4.starRating = 4.5f;
         travelLocations.add(travelLocationMotionView4);
 

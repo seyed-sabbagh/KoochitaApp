@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="10dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="5dp">
@@ -34,11 +34,11 @@
 
 
             <ImageView
-                android:layout_gravity="center"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
+                android:layout_gravity="center"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_add"
+                android:src="@drawable/ic_eye"
                 app:tint="#ffffff" />
 
 
@@ -69,39 +69,39 @@
 
 
             <ImageView
-                android:layout_gravity="center"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
+                android:layout_gravity="center"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_message"
+                android:src="@drawable/ic_like"
                 app:tint="#ffffff" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="22"
                 android:padding="5dp"
+                android:text="22"
                 android:textColor="@color/white"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
             <ImageView
-                android:layout_gravity="center"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
+                android:layout_gravity="center"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_circle_down"
+                android:src="@drawable/ic_dis_like"
                 app:tint="#ffffff" />
 
 
             <TextView
-                android:padding="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:padding="5dp"
                 android:text="22"
                 android:textColor="@color/white"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/txtstarrating2"
@@ -116,7 +116,7 @@
         <View
             android:id="@+id/view2"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="100dp"
             android:background="#d6000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="@+id/txtTitle" />
@@ -167,9 +167,10 @@
             android:layout_marginStart="2dp"
             android:layout_marginEnd="70dp"
             android:layout_marginBottom="8dp"
-            android:gravity="end"
+            android:fontFamily="@font/iransans"
+            android:gravity="start"
             android:textColor="#ffffff"
-            android:textSize="16dp"
+            android:textSize="14dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/imageLocation" />
@@ -183,9 +184,10 @@
             android:layout_marginEnd="70dp"
             android:layout_marginBottom="2dp"
             android:paddingTop="4dp"
-            android:textAlignment="textEnd"
+            android:gravity="start"
             android:textColor="#ffffff"
-            android:textSize="25dp"
+            android:fontFamily="@font/iransans"
+            android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/imageLocation" />
 

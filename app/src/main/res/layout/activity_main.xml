@@ -2,10 +2,11 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#243443"
-    tools:context=".MainActivity">
+    tools:context=".mainMainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -47,7 +48,7 @@
                 android:layout_margin="10dp"
                 android:id="@+id/locationsviewPager"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="350dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginBottom="40dp"
                 android:background="@color/color_XD_lite"

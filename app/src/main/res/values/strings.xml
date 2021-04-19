@@ -94,4 +94,12 @@
     <string name="mosafer">مسافر</string>
     <string name="khali">خالی</string>
     <string name="yek_shanbe">یک شنبه</string>
+    <string name="shabake_ejtemai">شبکه های اجتماعی</string>
+    <string name="sayt_haye_digar">سایت های دیگر</string>
+    <string name="telefony">تلفنی</string>
+    <string name="hozory">حضوری</string>
+    <string name="otagh">اتاق</string>
+    <string name="title_activity_fragment__list__mosaferan">Fragment_List_Mosaferan</string>
+    <string name="dalil_aval">دلیل اول</string>
+    <string name="tedad_sahab_eghamat">تعداد شب اقامت</string>
 </resources>

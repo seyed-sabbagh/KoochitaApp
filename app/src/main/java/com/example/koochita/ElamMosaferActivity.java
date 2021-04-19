@@ -1,5 +1,6 @@
 package com.example.koochita;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +13,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 public class ElamMosaferActivity extends AppCompatActivity {
 
-    Button btn;
+    Button btn, btn_emal;
     ConstraintLayout layout;
 
     @Override
@@ -22,14 +23,14 @@ public class ElamMosaferActivity extends AppCompatActivity {
 
         btn = findViewById(R.id.btn_elame_mosafer);
         layout = findViewById(R.id.bottomSheetContainer2);
+        btn_emal = findViewById(R.id.btn_emal);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(
-                        ElamMosaferActivity.this,
-                        R.style.BottomSheetDialogTheme);
-                View bottomSheetView = LayoutInflater.from(getApplicationContext())
+                        ElamMosaferActivity.this, R.style.BottomSheetDialogTheme);
+                @SuppressLint("WrongViewCast") View bottomSheetView = LayoutInflater.from(getApplicationContext())
                         .inflate(
                                 R.layout.layout_bottom_sheet_joziyat_mosafer,
                                 (ConstraintLayout) findViewById(R.id.bottomSheetContainer2)

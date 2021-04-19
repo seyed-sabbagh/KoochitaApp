@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottomSheetContainer2"
     android:layout_width="match_parent"
+    android:layoutDirection="ltr"
     android:layout_height="match_parent"
     android:background="#445565"
     android:orientation="vertical"
@@ -47,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginTop="2dp"
-        android:background="@color/red_XD"
+        android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/txt1" />
 
     <TextView
@@ -69,10 +70,30 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:layout_marginTop="5dp"
-        android:background="@color/red_XD"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView33"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="_ _ _  / _ _ / _ _"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/view10"
+        app:layout_constraintStart_toStartOf="@+id/textView72" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
+        android:text="_ _ _  / _ _ / _ _"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/view11"
+        app:layout_constraintStart_toStartOf="@+id/view11" />
 
     <TextView
         android:id="@+id/textView48"
@@ -92,7 +113,7 @@
         android:id="@+id/view10"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@color/red_XD"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView33"
         app:layout_constraintTop_toBottomOf="@+id/textView48" />
 
@@ -113,7 +134,7 @@
         android:id="@+id/view11"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@color/red_XD"
+        android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/textView49" />
 
     <TextView
@@ -133,12 +154,27 @@
         android:id="@+id/view12"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@color/red_XD"
+        android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/textView50"
         tools:layout_editor_absoluteX="16dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/iransans"
+        android:text="مبدا ورود را وارد کنید"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view12"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
     <CheckBox
+        android:layoutDirection="rtl"
+        android:textSize="10sp"
+        android:buttonTint="@color/white"
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -146,19 +182,22 @@
         android:layout_marginEnd="25dp"
         android:checked="true"
         android:fontFamily="@font/iransans"
-        android:text="@string/hame"
+        android:text="@string/hozory"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/checkBox5"
         app:layout_constraintTop_toBottomOf="@+id/view12" />
 
     <CheckBox
+        android:layoutDirection="rtl"
+        android:textSize="10sp"
+        android:buttonTint="@color/white"
         android:id="@+id/checkBox5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
         android:fontFamily="@font/iransans"
-        android:text="@string/hame"
+        android:text="@string/telefony"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/checkBox4"
         app:layout_constraintEnd_toStartOf="@+id/checkBox4"
@@ -166,12 +205,15 @@
         app:layout_constraintTop_toTopOf="@+id/checkBox4" />
 
     <CheckBox
+        android:layoutDirection="rtl"
         android:id="@+id/checkBox6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
+        android:buttonTint="@color/white"
+        android:textSize="10sp"
         android:fontFamily="@font/iransans"
-        android:text="@string/hame"
+        android:text="@string/sayt_haye_digar"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/checkBox5"
         app:layout_constraintEnd_toStartOf="@+id/checkBox5"
@@ -180,12 +222,14 @@
 
 
     <CheckBox
+        android:layoutDirection="rtl"
+        android:textSize="10sp"
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:checked="true"
         android:fontFamily="@font/iransans"
-        android:text="@string/hame"
+        android:text="@string/shabake_ejtemai"
+        android:buttonTint="@color/white"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/checkBox6"
         app:layout_constraintEnd_toStartOf="@+id/checkBox6"
@@ -194,25 +238,26 @@
 
 
     <Button
+        android:background="@drawable/transparent_bg_bordered_button_red"
         android:id="@+id/btn_Badan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/transparent_bg_bordered_button"
         android:fontFamily="@font/iransans"
         android:text="@string/badan"
-        android:textColor="@android:color/holo_blue_bright"
+        android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <Button
+        app:cornerRadius="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/transparent_bg_bordered_button"
         android:fontFamily="@font/iransans"
-        android:text="@string/badan"
+        android:text="@string/emal"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/btn_Badan"
