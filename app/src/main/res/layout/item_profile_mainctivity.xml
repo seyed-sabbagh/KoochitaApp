@@ -122,6 +122,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView9" />
 
     <TextView
+        android:lines="1"
         android:id="@+id/textView11"
         android:layout_width="64dp"
         android:layout_height="wrap_content"
@@ -132,7 +133,6 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toStartOf="@+id/textView10"
-        app:layout_constraintStart_toStartOf="@+id/relativeLayout9"
         app:layout_constraintTop_toTopOf="@+id/textView10" />
 
     <TextView

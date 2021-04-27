@@ -159,6 +159,7 @@
         tools:layout_editor_absoluteX="16dp" />
 
     <TextView
+        android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -171,85 +172,81 @@
         app:layout_constraintEnd_toEndOf="@+id/view12"
         app:layout_constraintTop_toBottomOf="@+id/textView50" />
 
-    <CheckBox
-        android:layoutDirection="rtl"
-        android:textSize="10sp"
-        android:buttonTint="@color/white"
-        android:id="@+id/checkBox4"
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="25dp"
-        android:checked="true"
-        android:fontFamily="@font/iransans"
-        android:text="@string/hozory"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox5"
-        app:layout_constraintTop_toBottomOf="@+id/view12" />
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        tools:layout_editor_absoluteX="30dp">
 
-    <CheckBox
-        android:layoutDirection="rtl"
-        android:textSize="10sp"
-        android:buttonTint="@color/white"
-        android:id="@+id/checkBox5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:fontFamily="@font/iransans"
-        android:text="@string/telefony"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBox4"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
-        app:layout_constraintStart_toEndOf="@+id/checkBox6"
-        app:layout_constraintTop_toTopOf="@+id/checkBox4" />
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:checked="true"
+            android:fontFamily="@font/iransans"
+            android:layoutDirection="rtl"
+            android:text="@string/hozory"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
 
-    <CheckBox
-        android:layoutDirection="rtl"
-        android:id="@+id/checkBox6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:buttonTint="@color/white"
-        android:textSize="10sp"
-        android:fontFamily="@font/iransans"
-        android:text="@string/sayt_haye_digar"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBox5"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox5"
-        app:layout_constraintStart_toEndOf="@+id/checkBox7"
-        app:layout_constraintTop_toTopOf="@+id/checkBox5" />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:checked="true"
+            android:fontFamily="@font/iransans"
+            android:layoutDirection="rtl"
+            android:text="@string/telefony"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:checked="true"
+            android:fontFamily="@font/iransans"
+            android:layoutDirection="rtl"
+            android:text="@string/sayt_haye_digar"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
 
 
-    <CheckBox
-        android:layoutDirection="rtl"
-        android:textSize="10sp"
-        android:id="@+id/checkBox7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/iransans"
-        android:text="@string/shabake_ejtemai"
-        android:buttonTint="@color/white"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBox6"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox6"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/checkBox6" />
+        <CheckBox
+            android:lines="1"
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:fontFamily="@font/iransans"
+            android:layoutDirection="rtl"
+            android:text="@string/shabake_ejtemai"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
 
+    </LinearLayout>
 
     <Button
-        android:background="@drawable/transparent_bg_bordered_button_red"
         android:id="@+id/btn_Badan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
+        android:background="@drawable/transparent_bg_bordered_button_red"
         android:fontFamily="@font/iransans"
         android:text="@string/badan"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
     <Button
         app:cornerRadius="10dp"

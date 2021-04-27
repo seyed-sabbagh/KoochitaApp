@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
+        android:fillViewport="true"
         android:background="#243443">
 
         <LinearLayout
@@ -35,21 +36,27 @@
 
             <include layout="@layout/tedad_mosafer_mainactivity" />
 
-            <include layout="@layout/btn_mosafer_mainactivity" />
+            <include layout="@layout/btn_mosafer_mainactivity"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
 
 
             <include layout="@layout/takhfif_mainactivity" />
 
 
-            <include layout="@layout/btn_mainactivity" />
+            <include layout="@layout/btn_mainactivity"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                />
 
 
             <androidx.viewpager2.widget.ViewPager2
-                android:layout_margin="10dp"
                 android:id="@+id/locationsviewPager"
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:layout_marginTop="40dp"
+
                 android:layout_marginBottom="40dp"
                 android:background="@color/color_XD_lite"
                 android:paddingStart="60dp"

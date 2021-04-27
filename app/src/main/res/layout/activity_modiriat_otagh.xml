@@ -16,13 +16,47 @@
         android:background="#445565"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:src="@drawable/img_toolbar"
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/name_eghamat_ghah"
+        android:gravity="end"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/relativeLayout2" />
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="هتل اسپیناس پلاس"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/viesws"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/keshti_banner" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView30"
@@ -65,6 +99,7 @@
 
 
         <com.google.android.material.button.MaterialButton
+            android:lines="1"
             android:id="@+id/button5"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -74,12 +109,13 @@
             android:fontFamily="@font/iransans"
             android:text="@string/hazf"
             android:textAlignment="textStart"
-            android:textSize="15sp"
+            android:textSize="14sp"
             app:cornerRadius="10dp"
             app:layout_constraintStart_toStartOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView" />
 
         <com.google.android.material.button.MaterialButton
+            android:lines="1"
             android:id="@+id/button6"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
@@ -89,7 +125,7 @@
             android:fontFamily="@font/iransans"
             android:text="@string/virayes"
             android:textAlignment="textStart"
-            android:textSize="15sp"
+            android:textSize="14sp"
             app:cornerRadius="10dp"
             app:layout_constraintStart_toStartOf="@+id/imageView"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
@@ -99,12 +135,12 @@
             android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
             android:fontFamily="@font/iransans"
             android:text="@string/name_otagh_banner"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -112,13 +148,13 @@
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="2dp"
             android:fontFamily="@font/iransans"
-            android:text="@string/shomare_yek"
+            android:text="اتاق شماره 567"
             android:textColor="@color/white"
             android:textSize="10sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView19"
             app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/textView28"
             app:layout_constraintTop_toTopOf="@+id/textView19" />
 
 
@@ -149,40 +185,40 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="10dp"
             android:fontFamily="@font/iransans"
-
             android:text="200.000"
             android:textColor="@color/white"
-            android:textSize="12sp"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView26"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toTopOf="@+id/textView26" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="5dp"
             android:fontFamily="@font/iransans"
             android:text="200.000"
             android:textColor="@color/red_XD"
-            android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView27"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView28"
             app:layout_constraintStart_toEndOf="@+id/textView27"
-            app:layout_constraintTop_toTopOf="@+id/textView27" />
+            app:layout_constraintTop_toTopOf="@+id/textView28" />
 
         <TextView
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
             android:fontFamily="@font/iransans"
             android:text="@string/gheymat_emruz"
             android:textColor="@color/white"
             android:textSize="12sp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView27"
+            app:layout_constraintBottom_toBottomOf="@+id/textView25"
+            app:layout_constraintEnd_toStartOf="@+id/textView25"
             app:layout_constraintStart_toEndOf="@+id/textView26"
-            app:layout_constraintTop_toTopOf="@+id/textView27"
+            app:layout_constraintTop_toTopOf="@+id/textView25"
             app:layout_constraintVertical_bias="0.0" />
 
         <LinearLayout
@@ -313,6 +349,36 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
 
+<!--
 
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        &lt;!&ndash; Note: A RecyclerView can also be used &ndash;&gt;
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="100dp">
+
+            &lt;!&ndash; Scrollable content &ndash;&gt;
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_menu"
+            />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

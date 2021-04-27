@@ -19,7 +19,7 @@ public class ActivityFragment1_ListKasbOkar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment1__list_kasb_okar);
-
+/*
         ConstraintLayout layout;
         Button btn, btn_emal;
         
@@ -45,7 +45,7 @@ public class ActivityFragment1_ListKasbOkar extends AppCompatActivity {
               bottomSheetDialog.setContentView(bottomSheetView);
               bottomSheetDialog.show();
           }
-      });
+      });*/
     }
 
 }

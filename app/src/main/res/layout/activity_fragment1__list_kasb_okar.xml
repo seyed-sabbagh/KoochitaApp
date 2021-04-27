@@ -66,7 +66,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/iransans"
-        android:text="@string/name_mosafer"
+        android:text="نام مسافر : سید محمد جواد صباغ"
         android:textColor="@color/black"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -79,9 +79,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="@font/iransans"
-        android:text="@string/tarikh_vorood"
+        android:text="تاریخ ورود‌ : 28/3/1400"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView61"
         app:layout_constraintTop_toBottomOf="@+id/textView61" />
@@ -90,10 +90,11 @@
         android:id="@+id/textView64"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/iransans"
-        android:text="@string/tedad_sahab_eghamat"
+        android:text="تعداد شب اقامت : ۳ شب و ۴ روز"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView62"
         app:layout_constraintTop_toBottomOf="@+id/textView62" />
@@ -102,11 +103,11 @@
         android:id="@+id/textView65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/iransans"
-        android:text="@string/tarikh_khoroj"
+        android:text="تاریخ خروج : 29/4/1401"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView62"
         app:layout_constraintEnd_toStartOf="@+id/textView62"
@@ -116,8 +117,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/iransans"
-        android:text="@string/darAmad"
+        android:text="درامد : یک میلیون ریال"
         android:textColor="@color/black"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -190,5 +192,33 @@
         app:layout_constraintBottom_toBottomOf="@+id/relativeLayout8"
         app:layout_constraintStart_toStartOf="@+id/relativeLayout8" />
 
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+        <!-- Note: A RecyclerView can also be used -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="100dp">
+
+            <!-- Scrollable content -->
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_menu"
+            />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
