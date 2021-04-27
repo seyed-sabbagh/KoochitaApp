@@ -13,8 +13,8 @@
     <RelativeLayout
         android:id="@+id/relativeLayout8"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:layout_margin="20dp"
+        android:layout_height="170dp"
+        android:layout_margin="15dp"
         android:layout_marginTop="50dp"
         android:background="#B4C0CC"
         app:layout_constraintTop_toTopOf="parent"
@@ -78,12 +78,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
         android:fontFamily="@font/iransans"
         android:text="تاریخ ورود‌ : 28/3/1400"
         android:textColor="@color/black"
         android:textSize="10sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/textView61"
+        app:layout_constraintEnd_toEndOf="@+id/relativeLayout8"
         app:layout_constraintTop_toBottomOf="@+id/textView61" />
 
     <TextView
@@ -103,7 +104,8 @@
         android:id="@+id/textView65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:fontFamily="@font/iransans"
         android:text="تاریخ خروج : 29/4/1401"
         android:textColor="@color/black"
@@ -174,7 +176,7 @@
         android:id="@+id/button1002"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="8dp"
         android:backgroundTint="@color/color_XD_Dark"
         android:text="@string/ersal_payam"
         android:textStyle="bold"
@@ -185,7 +187,7 @@
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="8dp"
         android:backgroundTint="@color/color_XD_Dark"
         android:text="@string/shekayat"
         android:textStyle="bold"
@@ -193,32 +195,32 @@
         app:layout_constraintStart_toStartOf="@+id/relativeLayout8" />
 
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom">
+<!--    <androidx.coordinatorlayout.widget.CoordinatorLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="bottom">-->
 
-        <!-- Note: A RecyclerView can also be used -->
-        <androidx.core.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:clipToPadding="false"
-            android:paddingBottom="100dp">
+<!--        &lt;!&ndash; Note: A RecyclerView can also be used &ndash;&gt;-->
+<!--        <androidx.core.widget.NestedScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:clipToPadding="false"-->
+<!--            android:paddingBottom="100dp">-->
 
-            <!-- Scrollable content -->
+<!--            &lt;!&ndash; Scrollable content &ndash;&gt;-->
 
-        </androidx.core.widget.NestedScrollView>
+<!--        </androidx.core.widget.NestedScrollView>-->
 
-        <com.google.android.material.bottomappbar.BottomAppBar
-            android:id="@+id/bottomAppBar"
-            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            app:menu="@menu/bottom_menu"
-            />
+<!--        <com.google.android.material.bottomappbar.BottomAppBar-->
+<!--            android:id="@+id/bottomAppBar"-->
+<!--            style="@style/Widget.MaterialComponents.BottomAppBar.Colored"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            app:menu="@menu/bottom_menu"-->
+<!--            />-->
 
 
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!--    </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
